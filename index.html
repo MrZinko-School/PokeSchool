@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>PokeSchool: Login</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+<!--<span style=" background: #c0c0c0; color: black; padding: 0 5px; border: 1px outset white;">X</span>-->
+    <body>
+        <p class="meio" style="padding: 20px;"><img width="400" src="Images/pokemon-logo.png"></p>
+        <div class="window">
+            <div class="title-bar">
+                <span>Login</span>
+            </div>
+            <div class="content" style="display: flex;">
+                <span style="width: 65%;">Aprenderemos tudo necessário para se tornar um verdadeiro <b><i>FAMBOY</i></b> de pokémon.</span>
+                <span>
+                    <label for="nome">Nome:</label>
+                    <input style="width: 100%; height: 15px;" type="text" id="nome" name="nome">
+                    <label for="gen">Gênero:</label>
+                    <select style="width: 100%;" name="gen" id="gen">
+                        <option value=""></option>
+                        <option value="man">Homem</option>
+                        <option value="woman">Mulher</option>
+                        <option value="non-bi">Não Binário</option>
+                        <option value="none">Prefiro não dizer</option>
+                    </select>
+                </span>
+                <span style="padding: 8px;"><img width="98" src="Images/Gengar.gif"></span>
+                <br>
+                <button onclick="saveName(); location.href='Introdução.html'">Continuar</button>
+            </div>
+        </div>
+        <!--
+        <footer class="footer" style="margin-top: 220px;">
+            <div class="content">
+                <p class="meio">©ArthurProductions</p>
+                <div style="display: flex; justify-content: center; gap: 20px;">
+                    <a style="color: blue;" class="contorno" href="Introdução.html">Introdução</a>
+                    <a style="color: blue;" class="contorno" href="Home.html">Home</a>
+                    <a style="color: blue;" class="contorno" href="Créditos.html">Créditos</a>
+                </div>
+            </div>
+        </footer>
+        -->
+    </body>
+</html>
